@@ -35,7 +35,7 @@ Desafio apresentado pelo tech
 <h2> ⛏️ Construção</h2>
 
 <p>
-Primeio processo...
+Primeiro processo...
 </p>
 
 <h2>👩‍🎓 Conceitos</h2>
@@ -50,6 +50,6 @@ Primeio processo...
 
 <h2> 👩‍💻 Desenvolvido Por</h2>
 
-criado por [Renan](https://www.linkedin.com/in/renanjpaula/)
+Criado por [Renan](https://www.linkedin.com/in/renanjpaula/)
 
 Realizado o desafio por [Tuane](https://www.linkedin.com/in/tuane-mendes/)

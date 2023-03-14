@@ -20,6 +20,8 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokedex-details.css">
+    
 </head>
 
 <body>
@@ -35,12 +37,43 @@
                 Load More
             </button>
         </div>
+        <!-- Modal details -->
+        <div class="container-modal">
+          
+            <div id="modalBackdrop" class="modal-backdrop"></div>
+            <div id="modalDetails" >
+                
+                <div class="modal-header">
+                    <h3><- </h3>
+                    <button  onclick="fechar()" id="close-modal" class="button-modal">X</button>
+                </div>
+                <div id="detailsPokemon" class="details-pokemon">
+                    <span class="pokemon-number">#001</span>
+                    <span class="pokemon-name">Bulbasaur</span>
+        
+                    <div class="container-details">
+                        <ol class="pokemon-types">
+                            <li class="pokemon-type">grass</li>
+                            <li class="pokemon-type">Poison</li>
+                        </ol>
+        
+                        <img  class="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                             alt="bulbasaur">
+                    </div>
+                    <div class="detail-list">
+                        <div class="container-about-pokemon">
+                            <p class="about-pokemon">About</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </div>
     </section>
 
     <!-- Nosso JS -->
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js"  defer></script>
 </body>
 
 </html>
